@@ -28,6 +28,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UILaunchImageFile~iphone</key>
+	<string>UTTower</string>
+	<key>CFBundleIconFile</key>
+	<string>TXIcon</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

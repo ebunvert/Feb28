@@ -16,6 +16,11 @@
 		774D1BD016DFA9F000D77A47 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 774D1BCF16DFA9F000D77A47 /* Default.png */; };
 		774D1BD216DFA9F000D77A47 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 774D1BD116DFA9F000D77A47 /* Default@2x.png */; };
 		774D1BD416DFA9F000D77A47 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 774D1BD316DFA9F000D77A47 /* Default-568h@2x.png */; };
+		774D1BDC16DFB04B00D77A47 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 774D1BDB16DFB04B00D77A47 /* View.m */; };
+		774D1BE316DFDE3600D77A47 /* UTTower.png in Resources */ = {isa = PBXBuildFile; fileRef = 774D1BE116DFDE3600D77A47 /* UTTower.png */; };
+		774D1BE416DFDE3600D77A47 /* UTTower@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 774D1BE216DFDE3600D77A47 /* UTTower@2x.png */; };
+		774D1BE616DFE11B00D77A47 /* TXIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 774D1BE516DFE11B00D77A47 /* TXIcon.png */; };
+		774D1BE816DFE49800D77A47 /* bevo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774D1BE716DFE49800D77A47 /* bevo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,12 @@
 		774D1BCF16DFA9F000D77A47 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		774D1BD116DFA9F000D77A47 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		774D1BD316DFA9F000D77A47 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		774D1BDA16DFB04B00D77A47 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		774D1BDB16DFB04B00D77A47 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		774D1BE116DFDE3600D77A47 /* UTTower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UTTower.png; sourceTree = "<group>"; };
+		774D1BE216DFDE3600D77A47 /* UTTower@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UTTower@2x.png"; sourceTree = "<group>"; };
+		774D1BE516DFE11B00D77A47 /* TXIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TXIcon.png; sourceTree = "<group>"; };
+		774D1BE716DFE49800D77A47 /* bevo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bevo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +91,8 @@
 			children = (
 				774D1BCC16DFA9F000D77A47 /* Feb28AppDelegate.h */,
 				774D1BCD16DFA9F000D77A47 /* Feb28AppDelegate.m */,
+				774D1BDA16DFB04B00D77A47 /* View.h */,
+				774D1BDB16DFB04B00D77A47 /* View.m */,
 				774D1BC416DFA9F000D77A47 /* Supporting Files */,
 			);
 			path = Feb28;
@@ -88,13 +101,17 @@
 		774D1BC416DFA9F000D77A47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				774D1BE716DFE49800D77A47 /* bevo.jpg */,
 				774D1BC516DFA9F000D77A47 /* Feb28-Info.plist */,
+				774D1BE516DFE11B00D77A47 /* TXIcon.png */,
+				774D1BE116DFDE3600D77A47 /* UTTower.png */,
+				774D1BE216DFDE3600D77A47 /* UTTower@2x.png */,
 				774D1BC616DFA9F000D77A47 /* InfoPlist.strings */,
 				774D1BC916DFA9F000D77A47 /* main.m */,
-				774D1BCB16DFA9F000D77A47 /* Feb28-Prefix.pch */,
 				774D1BCF16DFA9F000D77A47 /* Default.png */,
 				774D1BD116DFA9F000D77A47 /* Default@2x.png */,
 				774D1BD316DFA9F000D77A47 /* Default-568h@2x.png */,
+				774D1BCB16DFA9F000D77A47 /* Feb28-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,6 +172,10 @@
 				774D1BD016DFA9F000D77A47 /* Default.png in Resources */,
 				774D1BD216DFA9F000D77A47 /* Default@2x.png in Resources */,
 				774D1BD416DFA9F000D77A47 /* Default-568h@2x.png in Resources */,
+				774D1BE316DFDE3600D77A47 /* UTTower.png in Resources */,
+				774D1BE416DFDE3600D77A47 /* UTTower@2x.png in Resources */,
+				774D1BE616DFE11B00D77A47 /* TXIcon.png in Resources */,
+				774D1BE816DFE49800D77A47 /* bevo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +188,7 @@
 			files = (
 				774D1BCA16DFA9F000D77A47 /* main.m in Sources */,
 				774D1BCE16DFA9F000D77A47 /* Feb28AppDelegate.m in Sources */,
+				774D1BDC16DFB04B00D77A47 /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
